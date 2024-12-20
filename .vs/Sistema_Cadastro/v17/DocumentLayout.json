@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|solutionrelative:pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|c:\\users\\administrador\\documents\\curso_csharp\\sistema_cadastro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|c:\\users\\administrador\\documents\\curso_csharp\\sistema_cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|c:\\users\\administrador\\documents\\curso_csharp\\sistema_cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|solutionrelative:pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6248A362-2427-4C17-B5A6-7421E054A154}|Sistema_Cadastro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T00:45:09.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T00:45:09.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Pessoa.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\Pessoa.cs",
               "RelativeDocumentMoniker": "Pessoa.cs",
@@ -51,25 +50,24 @@
               "RelativeToolTip": "Pessoa.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:09:05.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T11:09:05.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABCAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAApwAwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T10:13:56.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\Curso_CSharp\\Sistema_Cadastro\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

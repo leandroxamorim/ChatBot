@@ -47,14 +47,14 @@ namespace Sistema_Cadastro
                 }
             }
 
-            if (txtName.Text == " ")
+            if (txtName.Text == "")
             {
                 MessageBox.Show("Preencha o campo nome!");
                 txtName.Focus();
                 return;
             }
 
-            if (txtTelephone.Text == " ")
+            if (txtTelephone.Text == "(  )      -")
             {
                 MessageBox.Show("Preencha o campo telefone!");
                 txtTelephone.Focus();
@@ -95,17 +95,29 @@ namespace Sistema_Cadastro
                 pessoas[index] = p;
             }
 
-            BtnDelete_Click(BtnClean, EventArgs.Empty);
+            BtnClean_Click(BtnClean, EventArgs.Empty);
 
             Listar();
         }
         private void BtnDelete_Click(object sender, EventArgs e)
         {
-
+            int indice = lista.SelectedIndex;
+            pessoas.RemoveAt(indice);
+            Listar();
         }
 
         private void BtnClean_Click(object sender, EventArgs e)
         {
+            txtName.Text = "";
+            txtDate.Text = "";
+            ComboMaritalS.SelectedIndex = 0;
+            txtTelephone.Text = "";
+            checkCNH.Checked = false;
+            checkCAR.Checked = false;
+            radioM.Checked = true;
+            radioF.Checked = false;
+            radioO.Checked = false;
+            txtName.Focus();
 
         }
 
@@ -117,6 +129,34 @@ namespace Sistema_Cadastro
             {
                 lista.Items.Add(p.Name);
             }
+        }
+
+        private void lista_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            int indice = lista.SelectedIndex;
+            Pessoa p = pessoas[indice];
+
+            txtName.Text = p.Name;
+            txtDate.Text = p.BirthDay;
+            ComboMaritalS.SelectedItem = p.MaritalStatus;
+            txtTelephone.Text = p.Telephone;
+            checkCNH.Checked = bool.Parse(p.CNH);
+            checkCAR.Checked = bool.Parse(p.Car);
+
+            switch (p.Sex)
+            {
+                case "M":
+                    radioM.Checked = true;
+                    break;
+                case "F":
+                    radioF.Checked = true;
+                    break;
+                default:
+                    radioO.Checked = true;
+                    break;
+            }
+
+
         }
     }
 }
